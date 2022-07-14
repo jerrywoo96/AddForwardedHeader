@@ -1,5 +1,7 @@
-# AddForwardedHeader
+# Add Forwarded Header
 Construct Forwarded Header from X-Forwarded-For, X-Forwarded-Host and X-Forwarded-Proto incoming request headers, and appends them to outgoing request headers.
+
+See [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Forwarded](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Forwarded)
 
 ## Configuration
 
