@@ -3,6 +3,10 @@ Construct Forwarded Header from X-Forwarded-For, X-Forwarded-Host and X-Forwarde
 
 See [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Forwarded](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Forwarded)
 
+Traefik Plugin: [https://plugins.traefik.io/plugins/62cfd4129279ff6d9dd027a9/add-forwarded-header](https://plugins.traefik.io/plugins/62cfd4129279ff6d9dd027a9/add-forwarded-header)
+
+GitHub: [https://github.com/jerrywoo96/AddForwardedHeader](https://github.com/jerrywoo96/AddForwardedHeader)
+
 ## Configuration
 
 ### Static (traefik.yml)
@@ -11,7 +15,7 @@ experimental:
   plugins:
     AddForwardedHeader:
       moduleName: github.com/jerrywoo96/AddForwardedHeader
-      version: v1.0.0
+      version: v1.0.2
 ```
 
 ### Dynamic
