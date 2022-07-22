@@ -15,7 +15,7 @@ experimental:
   plugins:
     AddForwardedHeader:
       moduleName: github.com/jerrywoo96/AddForwardedHeader
-      version: v1.0.2
+      version: v1.0.0
 ```
 
 ### Dynamic
